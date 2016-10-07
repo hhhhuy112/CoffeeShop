@@ -1,0 +1,21 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 152 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 5757 0 -1
+ciMethod java/lang/String <init> ([CII)V 2457 1 1536 0 -1
+ciMethod java/lang/String charAt (I)C 4097 1 27490 0 -1
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1153 1 735 0 -1
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2121 1 5476 0 -1
+ciMethod java/lang/AbstractStringBuilder expandCapacity (I)V 745 1 643 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2049 1 992 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 2209 1 4219 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 825 1 380 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1889 1 917 0 -1
+ciMethod java/lang/StringBuilder append (C)Ljava/lang/StringBuilder; 2049 1 2219 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 913 1 454 0 -1
+ciMethodData java/lang/Object <init> ()V 2 5758 orig 264 216 160 212 119 0 0 0 0 128 4 149 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String charAt (I)C 2 27490 orig 264 216 160 212 119 0 0 0 0 104 61 149 20 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 75 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x6962 0xa0007 0x6962 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/lang/String <init> ([CII)V 2 1536 orig 264 216 160 212 119 0 0 0 0 88 49 149 20 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 1 0 0 105 38 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x4cd 0x50007 0x4cd 0x30 0x0 0xd0002 0x0 0x120007 0x4cb 0x70 0x2 0x160007 0x2 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x2 0x370007 0x4cb 0x30 0x0 0x410002 0x0 0x4b0002 0x4cb oops 0
+ciMethodData java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2 5476 orig 264 216 160 212 119 0 0 0 0 120 59 156 20 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 217 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 10 0x70007 0x1235 0x50 0x226 0xc0005 0x0 0x15298e70 0x147 0x15298930 0xdf oops 2
